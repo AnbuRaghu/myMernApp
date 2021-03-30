@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build":"cd client && npm install && npm run build",
     "start": "nodemon index.js"
   },
   "author": "",
@@ -19,5 +18,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.29"
   },
-  "engines": {"node": "12.4.0","npm":"6.9.0"}
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
 }
